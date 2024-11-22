@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <conio.h> //para o getch no final do programa
+#include "manipulacao-string.h"
 
 int cadastroLivros();
 int excluirLivros();
@@ -100,7 +101,8 @@ int excluirLivros()
 
 int pesquisarLivro()
 {
-    
+    //usar o instr(0, "Código escrito em C", "escrito");
+    //inicio da busca, "termo", a partir da letra e de escrito
     return 0;
 }
 
