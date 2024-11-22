@@ -1,6 +1,9 @@
 //Header para manipulação de Strings em C, parte tirada de https://gist.github.com/raphaelnapi/ed0c29e049ee6dd0d36d687b77b9ee0a
 //por Raphael Pina Viana
 
+#ifndef mstring
+#define mstring
+#include <stdio.h>
 #include <string.h>
 
 int instr(int ipos, char* str1, char* str2){
@@ -22,3 +25,4 @@ int instr(int ipos, char* str1, char* str2){
 	
 	return -1; //fim do loop sem encontrar str2 em str1
 }
+#endif;
