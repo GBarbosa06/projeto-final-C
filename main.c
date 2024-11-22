@@ -74,6 +74,7 @@ int main()
         else if(esc==4) ptrFunc = solicitarEmprestimo();
         else if(esc==5) ptrFunc = gerarRelatorio();
         else if(esc==6) {printf("Fim do programa");}
+        else{printf("\n -- Escolha invalida --\n\n");}
 
         ptrFunc;
         
